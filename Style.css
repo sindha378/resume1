@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+}
+
+.left {
+    width: 80%;
+}
+
+.right {
+    width: 70%;
+    
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 80px;
+}
+.products{
+    display: flex;
+    margin: 20px;
+}
+.product-card{
+    
+    width: 200px; 
+    height: 300px;
+    margin: 10px; 
+    padding: 10px;  
+    border: 1px solid rgb(9, 183, 82);
+}
+.product-card img{
+    width: 200px;     
+    height: 150px;    
+}
+.veg{
+    display: flex;     
+    flex-wrap: wrap;    
+    gap: 20px;        
+}
+
+.vegitables {
+    width: 180px;     
+    height: 250px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.vegitables img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.f{
+    display: flex;       /* horizontal line-ஆ வர */
+    flex-wrap: wrap;     /* screen small-ஆ இருந்தா next line-க்கு போக */
+    gap: 20px;           /* cards இடையில space */
+}
+
+
+.fruits {
+    width: 180px;        /* card size same */
+    height: 250px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.fruits img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
